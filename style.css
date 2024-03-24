@@ -1,0 +1,76 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-left: 15em;
+}
+
+#schoen,
+#hoodie,
+#broek {
+  display: block;
+  margin: auto;
+
+  height: 14em;
+  width: 14em;
+  margin-bottom: 0.5em;
+}
+
+#outfitbybb {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em;
+}
+
+#shuffle {
+  flex-direction: column;
+}
+
+#hoodie {
+  margin-top: 3em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 12rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14rem;
+}
+
+body {
+  background-image: url(img/Untitled-1\ copy.jpg);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: darkgray;
+  border-radius: 5%;
+  padding: 0.1em;
+  transition: all 250ms ease;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
